@@ -1,0 +1,158 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+body {
+  padding-bottom: 0;
+  font-family: "Plus Jakarta Sans";
+  background-color: #f2f2f2;
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 38px;
+  padding: 16px;
+}
+
+.logo {
+  width: 89px;
+  height: 35px;
+}
+
+.header-cto:link,
+.header-cto:visited {
+  font-size: 16px;
+  background-color: #13183f;
+  color: #fff;
+  width: 140px;
+  height: 48px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  padding: 18px;
+}
+
+.section-landing {
+  margin-bottom: 66px;
+}
+
+.landing-title {
+  color: #13183f;
+  font-size: 40px;
+  font-weight: 800;
+  text-shadow: 0 4px 5px #aaa;
+  margin-bottom: 26px;
+}
+
+.landing-statement {
+  font-size: 16px;
+  color: #83869a;
+  font-weight: 500;
+  margin-bottom: 24px;
+  line-height: 26px;
+}
+
+.landing-cto:link {
+  background: linear-gradient(#ff6f48, #f02aa6);
+  padding: 20px 35px;
+  border-radius: 50px;
+  margin-bottom: 46px;
+}
+
+.img-box {
+  width: 100%;
+  height: 301px;
+  /* overflow: hidden; */
+  position: relative;
+}
+.landing-img {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 80px;
+}
+
+.section-courses p:first-child {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 30px 30px;
+  background: linear-gradient(#ff6f48, #f02aa6);
+  border-radius: 10px;
+  line-height: 32px;
+}
+
+.course-card {
+  padding: 0 30px;
+  background-color: #fff;
+  position: relative;
+  border-radius: 10px;
+}
+
+.course-icon {
+  position: absolute;
+  left: 30px;
+  transform: translateY(-50%);
+}
+
+.course-name {
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.course-description {
+  color: #83869a;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.card-cto {
+  color: #ffa7c3;
+  margin-bottom: 30px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 36px 16px;
+  background-color: #13183f;
+}
+
+.footer-cto:link,
+.footer-cto:visited {
+  background: linear-gradient(#4851ff, #f02aa6);
+  width: 140px;
+  height: 48px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
