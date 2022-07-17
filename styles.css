@@ -57,6 +57,10 @@ header {
   justify-content: center;
 }
 
+.header-cto:hover {
+  background-color: #13183f99;
+}
+
 .section-courses,
 .section-landing {
   padding: 1.8rem;
@@ -87,6 +91,10 @@ header {
   padding: 2rem 3.5rem;
   border-radius: 5rem;
   margin-bottom: 4.6rem;
+}
+
+.landing-cto:hover {
+  background: linear-gradient(#ff6f4899, #f02aa699);
 }
 
 .img-box {
@@ -130,7 +138,10 @@ header {
 }
 
 .course-card {
-  padding: 0 3rem;
+  padding: 0 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: #fff;
   position: relative;
   border-radius: 10px;
@@ -160,7 +171,6 @@ header {
 .card-cto:link,
 .card-cto:visited {
   color: #ffa7c3;
-  margin-bottom: 3rem;
 }
 
 footer {
@@ -230,6 +240,10 @@ footer {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+
+  .footer-cto:hover {
+    filter: brightness(0.85);
+  }
 }
 
 @media (min-width: 1440px) {
@@ -261,10 +275,6 @@ footer {
     /* position: relative; */
   }
 
-  .header-cto:hover {
-    background-color: #13183f99;
-  }
-
   .section-landing {
     margin-bottom: 18rem;
   }
@@ -293,20 +303,21 @@ footer {
     right: -80rem;
   }
 
-  .landing-cto:hover {
-    background: linear-gradient(#ff6f4899, #f02aa699);
-  }
-
   .section-courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 8rem;
   }
 
   .section-courses p:first-child {
     font-size: 3.2rem;
   }
 
-  .footer-cto:hover {
-    filter: brightness(0.85);
+  .course-card {
+    padding: 0 3rem 5rem;
+  }
+
+  .course-description {
+    font-size: 1.8rem;
   }
 }
